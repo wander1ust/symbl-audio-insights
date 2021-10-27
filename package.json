@@ -1,0 +1,22 @@
+{
+  "name": "api-world-symbl",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "@wander1ust",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "server-install": "cd server && npm install",
+    "install-all": "concurrently \"npm run client-install\" \"npm run server-install\""
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "node": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}

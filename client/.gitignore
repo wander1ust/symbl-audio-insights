@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+build/
+src/components/Selector.jsx
+private/
+
+src/trash/
+src/useCanvas.js
+src/setupTests.js
+
+public/css
