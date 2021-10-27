@@ -3,7 +3,6 @@ node_modules/
 private/
 .DS_Store
 
-static/audio
 nextjs-client/
 misc/
 
