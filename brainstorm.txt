@@ -1,0 +1,112 @@
+ ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   
+   * * * * * * * * * * * * * * * *      BRAINSTORM      * * * * * * * * * * * * * * * * 
+ ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑
+
+Conversation, Trackers, Conversation Groups, Management APIs
+
+Analyze sales & customer support calls - performance
+	* duration, emotional changes (start -> end), first time customer?, buying stage
+	* categories: 
+		* promotional, cold sales pitch, support (product/service, technical), information 
+		  (can belong to one or more categories)
+	(customer questions)
+	* overall satisfaction
+	* was target/goal achieved by end of call? How long did it take?
+	  information - answer all questions thoroughly
+	  sales pitch - end with action item (schedule follow up call, make a sale)
+	  support - resolve issue, close ticket, escalate
+	* track customer journey 
+		* how long from intro/promo -> sale? (# of calls, length of calls)
+		* loyalty - # of repurchases, time between each purchase, type of purchase
+	* sensitivity trigger
+		* alert if any term/language on black/gray list is used in convo (how many times, timestamp) - can be useful for avoiding offensive/insensitive language, controversial/inappropriate topics, touchy subjects; keywords
+		(e.g. profanity, insensitive use of pronouns, competitors, new product launches)
+
+Freelancer <-> Client
+
+Sync action items + scheduled calls to calendar
+Create Calendly/Zoom meeting & send invite to caller & recipient emails with discussion topic/agenda as subject line/description (adjusted to correct timezone based on location)
+Generate & email individual tailored custom branded short URL to survey monkey (Bitly)
+	* link params: campaign source (phone call), user id, date, feedback request type
+	  - user generated params (client decides which trackers to set)
+	* compare user reported feedback to what is deciphered via API (learn from these data to train models for better accuracy in the future)
+Generate
+
+Summary:
+ * Which topics are customers most confused about? Most common questions (FAQ)?
+ * Products with highest % returns, losses (supply quality)
+ * Most profitable products/services? Ranked
+ * Weekly/Monthly Overview (At A Glance)
+     - # of calls handled per month: breakdown by type, % positive + negative, success rate
+     - comparison to previous months (pie charts, graphs)
+ * Sales reps performance: 
+ 	- rep with most sales, best positive customer feedback, most engaging
+ 	- performance over time
+
+Meeting + feedback email invites should ideally use Livestreaming API for real time generation
+
+
+"not happy, unhappy, "
+"refund, return, damaged, defect"
+laughter
+
+customer satisfaction
+
+emotional insights 
+	- negative: upset/disappointed, angry, annoyed, confused, displeasure, discomfort
+	- positive: happy, worried/stressed 
+	- volume, pauses, language use, intensity, repeated words/sentences, laughter, customer redirects, stutter
+
+analyze how well a customer support/sales script is performing
+	- is the receiver reacting positively, negatively or neutral?
+	- how has the customer's emotions changed from start -> end of the call? 
+	Or has it remained more or less the same? What's the goal?
+	(i.e. calm/placate a stressed/angry customers, get customer to laugh, stimulate interest in a product - customer talking more & asking more relevant questions)
+	- successful to failed cold call ratio - rejection vs acceptance
+		abnormal # of rejections to acceptance may indicate that something is wrong
+
+	"yes, no, sorry but I am not interested", call length
+
+	words, phrases, expressions of gratitude
+
+track stages of buying process customer is in - informational
+
+# of returns processed, sales conversions - $ amount per month
+
+Research:
+buying habits 
+	- people are more likely to purchase from a brand they trust
+	- how do spending habits correlate with emotions?
+
+ ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   
+   * * * * * * * * * * * * * * * *      PLAN      * * * * * * * * * * * * * * * * 
+ ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑   ⭑
+
+resolution time
+# of incidents related to topic
+
+WORD CLOUD
+word cloud for conversation topics by... 
+	- word frequency
+	- topic confidence score
+	- sentiment (positive, neutral, negative)
+	- FAQ
+
+most popular topics at a glance
+focus on target speaker (customer)
+
+multiple convos - most common words & phrases across calls
+
+Get insights on...
+ - product refunds & returns
+ - customer queries
+ - question topics
+ - technical issues/incidents
+
+
+AGENDA/SCHEDULE + TIMESTAMPS
+Trackers
+ - search for first instance of user defined query (record timestamp)
+ - meeting recordings, webinars, tutorials, community calls, podcasts
+ - generate topics + timestamps
+ - set labels for each segment	
