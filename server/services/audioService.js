@@ -5,7 +5,7 @@ dotenv.config();
 
 const authToken = process.env.SYMBL_ACCESS_TOKEN;
 // const webhookUrl = WEBHOOK_URL;
-const audioUrl = process.env.TECH_SUPPORT_CALL;
+const audioUrl = process.env.AUDIO_URL;
 const audioFileStream = fs.createReadStream(audioUrl);
 const fileSizeInBytes = fs.statSync(audioUrl).size;
 
